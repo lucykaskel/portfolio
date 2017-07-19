@@ -9,7 +9,22 @@
 <body>
 
  <p> <center> <font color="black"> <a href="index.html"> Projects </a>|<a href="aboutme.html"> About me </a> |<a href="contact.html"> Contact Me </a>  </font> </p> 
-<h1>About Me</h1>
+
+  <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#CFEBEF;width:120px;height:20px;padding:40px;">
+Mouse Over Me</div>
+
+<script>
+function mOver(obj) {
+    obj.innerHTML = "About Me"
+}
+
+function mOut(obj) {
+    obj.innerHTML = "Lucy Kaskel"
+}
+</script>
+
+  
 <p> My name is Lucy Kaskel. I'm 16 years old, I live in Highland Park and go to Highland Park High School. I like hanging out with my 
 <br>
 with my friends and babysitting. I play field hockey at my school. </p>
